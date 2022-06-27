@@ -26,7 +26,7 @@
                         <th>Nombre</th>
                         <th>Peso(kg)</th>
                         <th>Altura(m)</th>
-                        <th>Gordura Corporal(%)</th>
+                        <th>Grasa Corporal(%)</th>
                         <th>IMC</th>
                     </tr>
                 </thead>
@@ -71,11 +71,32 @@
                     </tr>
                 </tbody>
             </table>
-
         </section>
     </main>
-    <script src="js/principal.js"></script>
-
+    <section class="container">
+        <h2 id="titulo-form">Adicionar nuevo paciente</h2>
+        <form id="form-adicionar">
+            <div class="grupo">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" name="nombre" type="text" placeholder="digite el nombre del paciente" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="peso">Peso:</label>
+                <input id="peso" name="peso" type="text" placeholder="digite el peso del paciente" class="campo campo-medio">
+            </div>
+            <div class="grupo">
+                <label for="altura ">Altura:</label>
+                <input id="altura" name="altura" type="text" placeholder="digite la altura del paciente" class="campo campo-medio">
+            </div>
+            <div class="grupo">
+                <label for="gordura">% de Grasa:</label>
+                <input id="gordura" type="text" placeholder="digite el porcentaje de gordura del paciente" class="campo campo-medio">
+            </div>
+            <button id="adicionar-paciente" class="boton bto-principal ">Adicionar</button>
+        </form>
+    </section>
+    <script src="js/calcular-imc.js "></script>
+    <script src="js/form.js"></script>
 </body>
 
 </html>
