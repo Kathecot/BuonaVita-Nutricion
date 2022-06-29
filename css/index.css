@@ -149,3 +149,12 @@ button:disabled {
   opacity: 0;
   transition: 0.5s;
 }
+#filtrar-tabla{
+  width: 250px;
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: #c4e4f6;
+}
+.invisible{
+  display: none;
+}
